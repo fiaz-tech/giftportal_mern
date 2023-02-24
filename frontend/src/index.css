@@ -1,0 +1,202 @@
+
+main {
+  min-height: 80vh;
+}
+
+
+
+h3 {
+  padding: 1rem 0;
+}
+
+p {
+  font-size: 1.2rem;
+  padding: 1rem 0;
+  color: #770737;
+}
+
+h1, h2, h3, h4 
+{font-variant-caps: unicase;
+  text-transform: none;
+}
+
+h1 {
+  font-size: 1.8rem;
+  padding: 1rem 0;
+}
+
+h2 {
+  font-size: 1.4rem;
+  padding: 0.5rem 0;
+}
+
+.rating span {
+  margin: 0.1rem;
+}
+
+/* carousel */
+.carousel-item-next,
+.carousel-item-prev,
+.carousel-item.active {
+  display: flex;
+}
+
+
+
+.carousel-caption h2 {
+  color: #fff;
+}
+
+.carousel img {
+  height: 500px;
+  padding: 20px;
+  margin: 10px;
+
+}
+.carousel a {
+  margin: 0 auto;
+}
+
+/* Navbar */
+.navbar {
+  background: transparent;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.7rem 2rem;
+  z-index: 999;
+  width: 100%;
+  margin-bottom: 1rem;
+  top: 0;
+}
+
+.navbar.active {
+  background: linear-gradient(90deg, rgb(163, 44, 196)0%, rgb(0, 78, 194)100%);
+}
+
+.navbar-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80px;
+  max-width: 100%;
+}
+.navbar-logo{
+  color: #e6d7ff;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar a {
+  color: #fff;
+  padding: 0.45rem;
+  margin: 0 0.25rem;
+}
+
+.navbar .welcome span {
+  margin-right: 0.6rem;
+}
+
+/* Navbar */
+
+#mynav {
+  background-color: #0088ff;
+}
+
+
+
+.navbar {
+  display: block;
+  text-align: center;
+}
+
+.navbar ul {
+  text-align: center;
+  justify-content: center;
+}
+
+.rating span {
+  margin: o.1rem;
+}
+#product_name{
+  color: #a32cc4;
+}
+#product_claimer{
+  color: black;
+}
+
+#userinfodropdown{
+  background-color: #0088ff;
+  color: #770737;
+}
+
+.expired-notice {
+  text-align: center;
+  padding: 2rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  margin: 0.5rem;
+}
+
+.expired-notice > span {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: red;
+}
+
+.expired-notice > p {
+  font-size: 1.5rem;
+}
+
+.show-counter {
+  padding: 0.5rem;
+}
+
+.show-counter .countdown-link {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  padding: 0.5rem;
+  border: 1px solid #ebebeb;
+  border-radius: 0.25rem;
+  text-decoration: none;
+  color: #000;
+}
+
+.show-counter .countdown {
+  line-height: 1.25rem;
+  padding: 0 0.75rem 0 0.75rem;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-counter .countdown.danger {
+  color: #ff0000;
+}
+
+.show-counter .countdown > p {
+  margin: 0;
+}
+
+.show-counter .countdown > span {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+
+
+
+@media (max-width: 900px) {
+  .carousel-caption h2 {
+    font-size: 2.5vw;
+  }
+}
