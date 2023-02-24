@@ -1,6 +1,6 @@
 import {Route, BrowserRouter as Router, Routes } from 'react-router-dom';
 import './index.css'
-import Header from './components/Header';
+import NavBar from './components/Navbar';
 import HomeScreen from './screens/HomeScreen'
 import Footer from './components/Footer';
 import GiveawayScreen from './screens/GiveawayScreen';
@@ -12,7 +12,7 @@ import LoginScreen from './screens/LoginScreen';
 function App() {
   return (
     <Router>
-      <Header />
+      <NavBar />
       <main className='py-3'>
         
           <Routes>

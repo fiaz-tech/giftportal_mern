@@ -14,7 +14,7 @@ const Header = ({color}) => {
   const { userInfo } = userLogin
 
   const logoutHandler = () => {
-    //console.log('logout')
+  
     dispatch(logout())
   }
 
