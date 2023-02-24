@@ -23,7 +23,7 @@ function NavBar() {
 
 
   return (
-    <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+    <Navbar collapseOnSelect expand="sm" bg="dark" variant="dark">
       <Container>
         <LinkContainer to='/'>
           <Navbar.Brand>Giveaway Portal</Navbar.Brand>
@@ -33,17 +33,13 @@ function NavBar() {
                 <Nav.Link><i className='fas fa-shopping-home'></i> Home
                 </Nav.Link>
               </LinkContainer>
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+        
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
 
-            <LinkContainer to='/'>
-              <Nav.Link>Home</Nav.Link>
-            </LinkContainer>
-
             {userInfo ? (
 
-              <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+              <NavDropdown title={userInfo.name}  id="collasible-nav-dropdown">
               <LinkContainer to='/profile'>
                <NavDropdown.Item>Profile</NavDropdown.Item>
               </LinkContainer>
